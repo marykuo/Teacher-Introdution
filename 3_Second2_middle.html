@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>middle</title>
+    <link rel="stylesheet" type="text/css" href="3_Second2_middle.css">
+    <script src="3_Second2_middle.js"></script>
+</head>
+<body>
+    <nav>
+        <!--screen>=800px-->
+        <ol id="big_screen">
+            <a href="4_middle1_down.html" target="arti"><li class="navicon">首頁</li></a>
+            <a href="4_middle2_school.html" target="arti"><li class="navicon">學歷經歷</li></a>
+            <a href="4_middle3_acheive.html" target="arti"><li class="navicon">論文一覽</li></a>
+            <a href="4_middle4_job.html" target="arti"><li class="navicon">產學合作</li></a>
+            <a href="4_middle5_subject.html" target="arti"><li class="navicon">研究一覽</li></a>
+            <a href="4_middle6_talk.html" target="arti"><li class="navicon">採訪記錄</li></a>
+            <a href="4_middle7_room.html" target="arti"><li class="navicon">文斌小教室</li></a>
+            <a href="http://mail.tku.edu.tw/horng/" target="_blank"><li class="navicon">個人網站</li></a>
+        </ol>
+        <!--screen<800px-->
+        <div id="small_screen">
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a><!--&#;字符實體 times X-->
+                <a href="4_middle1_down.html" target="arti"><li class="navicon">個人資料/首頁</li></a>
+                <a href="4_middle2_school.html" target="arti"><li class="navicon">學歷經歷</li></a>
+                <a href="4_middle3_acheive.html" target="arti"><li class="navicon">論文一覽</li></a>
+                <a href="4_middle4_job.html" target="arti"><li class="navicon">產學合作</li></a>
+                <a href="4_middle5_subject.html" target="arti"><li class="navicon">研究一覽</li></a>
+                <a href="4_middle6_talk.html" target="arti"><li class="navicon">採訪記錄</li></a>
+                <a href="4_middle7_room.html" target="arti"><li class="navicon">文斌小教室</li></a>
+                <a href="http://mail.tku.edu.tw/horng/" target="_blank"><li class="navicon">個人網站</li></a>
+            </div>
+            <span id="small_screen_nav" onclick="openNav()">&#9776; </span><!--&#;字符實體 9776 三條的DEC-->
+        </div>
+    </nav>
+
+    <section>
+        <iframe id="iframeid" height="400px" width="99%" src="4_middle1_down.html" name="arti" frameborder="0"></iframe>
+    </section>
+
+</body>
+</html>

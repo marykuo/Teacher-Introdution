@@ -1,0 +1,78 @@
+
+.navicon{
+    list-style-type: none;
+    color: darkcyan;
+    font-family: cursive;
+    float: left;
+    margin-right: 50px;
+    font-size: 16px;
+}
+.navicon:hover{
+    list-style-image: url("picture/3_Second_middle_Icon.png");
+    text-shadow: 3px/*x*/ 3px/*y*/ 0.3px/*blur*/ rgb(247, 229, 126);
+}
+
+#iframeid{
+    float: right;
+    position: relative;
+}
+
+#big_screen{
+    display: block;
+}
+#small_screen{
+    display: none;
+}
+#small_screen_nav{
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 88%;
+    font-size:30px;
+    cursor:pointer;
+    z-index: 10;
+}
+@media screen and (max-width: 800px) {
+    #big_screen{
+        display: none;
+    }
+    #small_screen{
+        display: block;
+    }
+    /*側邊欄選擇器*/
+    .sidenav {
+        height: 100%;
+        width: 0; /*原始寬度爲0*/
+        position: fixed;
+        z-index: 1;/*越大越上面*/
+        top: 0;
+        right: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+    }
+
+    /*側邊欄選項選擇器*/
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+    }
+
+    /*側欄標籤和關閉按鈕光標的效果*/
+    .sidenav, a:hover, a:focus{
+        color: #f1f1f1;
+    }
+
+    /*側欄和關閉按鈕的位置選擇器*/
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+}

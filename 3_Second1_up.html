@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>up</title>
+    <link rel="stylesheet" type="text/css" href="3_Second1_up.css">
+    <script src="3_Second1_up.js"></script>
+</head>
+<body onload="switchpic()"><!--onload加載結束後執行-->
+    <header>
+        <button id="btleft" onclick="picleft()"><img id="btlimg" src="picture/3_Second_up_pic_point_left.png"></button>
+        <button id="btright" onclick="picright()"><img id="btrimg" src="picture/3_Second_up_pic_point_right.png"></button>
+        <div id="uppic"></div>
+        <ruby id="hrname">洪文斌<rt>Hrong Wen Bing</rt></ruby>
+    </header>
+
+    <aside>
+        <audio id="music" autoplay="autoplay" loop="loop">
+            <source src="3_Second1_up_muzic.mp3" type="audio/mpeg" />
+            Your browser doesn't support audio element.
+        </audio>
+        <button onclick="musicv()"><img id="imgup" src="picture/3_Second_up_muzic_stop.jpg"></button>
+    </aside>
+</body>
+</html>

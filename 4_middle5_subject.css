@@ -1,0 +1,80 @@
+body{
+    overflow-x: hidden;/*橫軸hid*/
+    background-image: url("picture/4_middle5_subject_BG.jpg"),
+        linear-gradient(135deg,rgb(197,207,232),#dfe9f3 , white );
+    background-repeat: no-repeat;
+    background-size: 500px 360px,auto;
+    background-position-x:90%,left;
+    background-position-y:bottom,top;
+    background-attachment: fixed;
+}
+
+h2{
+    color: sienna;
+}
+
+ul li{
+    list-style:armenian;
+    font-size:18px;
+    height:30px;
+}
+.ty li{
+    list-style:square;
+}
+
+dt,dd{
+    height:30px;
+    font-size:18px;
+}
+article{
+    margin-left: 30px;
+}
+
+#stitle{
+    text-align: center;
+}
+.Class_GoHref{
+    text-decoration: none;
+    background-color:steelblue;
+    border:8px solid steelblue;
+    color: lightyellow;
+    font-size:18px;
+    margin-right:30px;
+}
+.Class_GoHref:hover{
+    border:8px ridge steelblue;
+    border-top-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+
+#img_GoTop{
+    position: fixed;
+    right:20px;
+    bottom:0;
+    height: 90px;
+    width: 65px;
+}
+
+.drop + input{
+    display: none;/* hide the checkboxes */
+}
+@media screen and (max-width:800px){/*screen<=800px*/
+    #stitle{
+        display: none;
+    }
+    table, td{
+        border-collapse:collapse;
+        border:1px solid black;
+    }
+    .drop {
+        cursor: pointer;
+        display: block;
+        text-decoration: underline;
+    }
+    .drop + input + div{
+        display: none;
+    }
+    .drop + input:checked + div{
+        display: block;
+    }
+}

@@ -1,0 +1,85 @@
+#teac{
+    display:none;
+    width:600px;
+    height:500px;
+    margin-top: 20px;
+    position: absolute;
+    left:20%;
+}
+
+button{
+    border-style: none;
+    background-color: transparent;
+    position: absolute;
+}
+#btbk img{
+    width:80px;
+    height:80px;
+}
+#btbk{
+    display:none;
+    top:0;
+    left:0;
+}
+#bta img,#btb img,#btc img,#btd img{
+    width:180px;
+    height:100px;
+}
+#bta{
+    top:50px;
+    left:25%;
+}
+#btb{
+    top:50px;
+    left:50%;
+}
+#btc{
+    top:180px;
+    left:25%;
+}
+#btd{
+    top:180px;
+    left:50%;
+}
+#pshow,#ppshow,#pppshow{
+    left:10%;
+}
+#ppppshow{
+    left:28%;
+}
+p{
+    display: none;
+    border:8px solid #61afc7dc;
+    position: absolute;;
+    margin-bottom: 50px;
+    border-radius:1em;
+}
+p::after {/*偽元素-->在元素的最後一個元素放裝飾*/
+    border-color: #61afc7dc transparent transparent transparent;/*up right down left*/
+    border-style: solid solid solid solid;
+    border-width: 38px 0px 38px 38px;
+    position: absolute;
+    top:99%;
+    right:2%;
+    content: "";
+    height: 0px;
+    width: 0px;
+}
+@media screen and (max-width:800px){/*screen<=800px*/
+    #bta{
+        top:50px;
+        left:25%;
+    }
+    #btb{
+        top:180px;
+        left:25%;
+    }
+    #btc{
+        top:310px;
+        left:25%;
+    }
+    #btd{
+        top:440px;
+        left:25%;
+    }
+}

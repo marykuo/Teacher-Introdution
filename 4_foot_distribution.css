@@ -1,0 +1,25 @@
+body{
+    overflow-x: hidden;
+    background-image: url("picture/4_foot_distribution_BG.png");
+    background-repeat: no-repeat;
+    background-size: 950px auto;
+    background-position-x: center;
+}
+
+h2{
+    text-align: center;
+    color: sienna;
+}
+p{
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+#id_p{
+    text-align: center;
+    width:500px;
+    position:relative;
+    left:50%;
+    margin-left:-250px;
+    background-color: rgba(255, 255, 255, 0.555);
+}

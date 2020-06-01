@@ -1,0 +1,59 @@
+body{
+    background-color: rgba(121, 109, 109, 0.26);
+}
+
+aside{
+    position:absolute;
+    left:0;
+    top:0;
+}
+#imgup{
+    height:50px;
+    width:50px;
+}
+button{
+    border:hidden;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+#btleft{
+    position:absolute;
+    left:0;
+    top:130px;
+}
+#btright{
+    position:absolute;
+    right:0;
+    top:130px;
+}
+#btlimg{
+    width:30px;
+    height:30px;
+}
+#btrimg{
+    width:30px;
+    height:30px;
+}
+
+#hrname{
+    position:absolute;
+    top:20%;
+    left:50%;
+    margin-left: -2em;
+    font-size:4em;
+    color: aliceblue;
+    background-color: rgba(158, 36, 36, 0.295);
+}
+/*#uppic:hover{
+
+}*/
+#uppic{
+    width:800px;
+    height:400px;
+    position: relative;
+    top:0%;
+    left:50%;
+    margin-left:-400px;
+    margin-top:-20px;
+}
+

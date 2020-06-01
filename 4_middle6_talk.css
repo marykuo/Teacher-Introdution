@@ -1,0 +1,48 @@
+p{
+    border:8px solid #61afc7dc;
+    position: relative;
+    margin-bottom: 50px;
+    border-radius:1em;
+}
+p::after {/*偽元素-->在元素的最後一個元素放裝飾*/
+    border-color: #61afc7dc transparent transparent transparent;/*up right down left*/
+    border-style: solid solid solid solid;
+    border-width: 38px 38px 0px 0px;
+    position: absolute;
+    transform: translateY(50%);
+    right:0;
+    content: "";
+    height: 0px;
+    width: 0px;
+}
+
+#talk_nav{
+    text-align: center;
+}
+.Class_GoHref{
+    text-decoration: none;
+    background-color:steelblue ;
+    border:8px solid steelblue;
+    color: lightyellow;
+    font-size:18px;
+    margin-right:30px;
+}
+.Class_GoHref:hover{
+    border:8px ridge steelblue;
+    border-top-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+
+#img_GoTop{
+    position:fixed;
+    right:20px;
+    bottom:0;
+    height: 90px;
+    width: 65px;
+}
+
+@media screen and (max-width:800px){/*screen<=800px*/
+    #talk_nav{
+        display: none;
+    }
+}

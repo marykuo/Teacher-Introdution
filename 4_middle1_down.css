@@ -1,0 +1,32 @@
+body{
+    background-image: url("picture/4_middle1_down_BG.jpg"),
+                      linear-gradient(135deg,#cdddecdc,#dfe9f3 , white );
+    background-size: cover,auto;
+    background-repeat: no-repeat;
+    background-position-x: right,left;
+    background-position-y: bottom,top;
+}
+
+article{
+    margin-top: 30px;/*rgb(184, 181, 45);*/
+    margin-left: 40px;
+    color: sienna;
+    font-weight: bold;
+}
+
+a{
+    color: sienna;
+}
+
+table{
+    height: 400px;
+    font-size:18px;
+}
+
+#img_GoTop{
+    position:fixed;
+    right:20px;
+    bottom:0;
+    height: 90px;
+    width: 65px;
+}

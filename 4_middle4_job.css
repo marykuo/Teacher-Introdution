@@ -1,0 +1,23 @@
+body{
+    background-image:linear-gradient(135deg,rgb(197,207,232),#dfe9f3 , white );
+}
+
+table{
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+table,tr,td{
+    border-collapse: collapse;/*折成一條線*/
+    border: 1px solid black;
+    font-size: 18px;
+    height:30px;
+}
+
+#img_GoTop{
+    position:fixed;
+    right:20px;
+    bottom:0;
+    height: 90px;
+    width: 65px;
+}

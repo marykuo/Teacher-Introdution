@@ -1,0 +1,54 @@
+body{
+    /*background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);*/
+    /*background-image: linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%);*/
+    /*background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);*/
+    background-image:url("picture/4_middle2_school_BG.jpg"), 
+                     linear-gradient(to left, #FFFEFF 0%, #dfe9f3 100%);
+    background-size: 500px 500px,auto;
+    background-repeat: no-repeat;
+    background-position-x:right;
+}
+article{
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+h2{
+    color: sienna;
+}
+a{
+    color:black;
+    text-decoration: none;
+}
+
+.table_head{
+    color: rosybrown;
+}
+#img_GoTop{
+    position: fixed;
+    right:20px;
+    bottom:0;
+    height: 60px;
+    width: 60px;
+}
+
+.drop + input{
+    display: none;/* hide the checkboxes */
+}
+@media screen and (max-width:800px){/*screen<=800px*/
+    table, td{
+        border-collapse:collapse;
+        border:1px solid black;
+    }
+    .drop {
+        cursor: pointer;
+        display: block;
+        text-decoration: underline;
+    }
+    .drop + input + div{
+        display: none;
+    }
+    .drop + input:checked + div{
+        display: block;
+    }
+}

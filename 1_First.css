@@ -1,0 +1,29 @@
+button{
+    margin-top: 28%;
+    margin-left: 35%;
+    width: 100px;
+    height: 50px;
+    font-size:15px;
+    font-family: cursive;
+    border-color: rgb(253, 204, 125);
+    border-style: dashed;
+    background-color: white;
+}
+body{
+    background-image: url(picture/1_First_BG.jpg);
+    background-size: 100% auto;/*寬 高*/
+    background-repeat: no-repeat;
+}
+@media screen and (max-width:800px){/*screen<=800px*/
+    button{
+        margin-top: 25%;
+        margin-left: 30%;
+        width: 90px;
+        height: 50px;
+        font-size:15px;
+        font-family: cursive;
+        border-color: rgb(253, 204, 125);
+        border-style: dashed;
+        background-color: white;
+    }
+}
